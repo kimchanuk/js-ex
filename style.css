@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  background-image: url('/투두리스트/image/부리부리.jpg');
+}
+
+.hidden {
+  display: none;
+}
+
+.todo-list {
+  padding: 8px 12px;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 20px 0;
+  border-bottom: 3px solid black;
+  font-weight: 800;
+  font-size: 30px;
+  color: lightgreen;
+}
+
+.box {
+  text-align: center;
+  width: 500px;
+  height: 1000px;
+  border: 5px solid black;
+  margin: 0 auto;
+}
+
+.time,
+.weather {
+  font-size: 20px;
+}

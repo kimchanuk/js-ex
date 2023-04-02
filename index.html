@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="container">
+    <div class="box">
+      <h1>TodoList</h1>
+
+      <form id="login-form" class="login-form hidden">
+        <span> 로그인 하는 곳임 </span>
+        <input
+          id="login-input"
+          class="login-input"
+          type="text"
+          placeholder="이름 입력하슈"
+          required
+        />
+        <button id="login-btn" class="login-btn">login</button>
+      </form>
+
+      <div class="time hidden">
+        <span id="clock">00:00:00</span>
+        <span id="year"></span>
+      </div>
+
+      <div id="weather" class="weather hidden">
+        <span></span>
+        <span></span>
+      </div>
+      <h1 id="greeting" class="hidden"></h1>
+
+      <form id="todo-form" class="hidden">
+        <input type="text" placeholder="할일을 입력하세요" required />
+        <input type="submit" value="확인" />
+      </form>
+
+      <div class="countDiv"></div>
+
+      <ul id="todo-list" class="todo-list"></ul>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
